@@ -39,7 +39,7 @@ input.addEventListener("keyup", (e) => {
 });
 
 
-fetch("http://jsonplaceholder.typicode.com/users")
+fetch("https://jsonplaceholder.typicode.com/users")
   .then((data) => {
     return data.text();
   })
